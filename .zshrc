@@ -1,6 +1,8 @@
 [ -r ~/.commonrc ] && source ~/.commonrc
 
 # ZSH-specific calls here
+bindkey -e # Apparently EDITOR variable of vim will default ZLE to vim mode,
+           # which I find annoying at the command line
 
 # oh-my-zsh installation.
 if [ -d ~/.oh-my-zsh ]; then
