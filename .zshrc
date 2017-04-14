@@ -22,4 +22,6 @@ fi
 
 # User configuration
 
-#export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/opt/coreutils/libexec/gnubin:/usr/local/sbin:/Users/emilerch/Workspace/go-workspace/bin"
+# Syntax highlighting if available. Must be last to run
+[ -r ~/.zsh-syntax-highlighting/zsh-syntax-highlighting.zsh ] && \
+  source ~/.zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
