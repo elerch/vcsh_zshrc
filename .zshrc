@@ -25,3 +25,6 @@ fi
 # Syntax highlighting if available. Must be last to run
 [ -r ~/.zsh-syntax-highlighting/zsh-syntax-highlighting.zsh ] && \
   source ~/.zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+typeset -A ZSH_HIGHLIGHT_STYLES
+ZSH_HIGHLIGHT_STYLES[globbing]='fg=36'
