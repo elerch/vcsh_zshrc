@@ -28,3 +28,7 @@ fi
 
 typeset -A ZSH_HIGHLIGHT_STYLES
 ZSH_HIGHLIGHT_STYLES[globbing]='fg=36'
+
+# urls are a problem for zsh - add a couple handy aliases
+alias curl="noglob curl"
+alias wget="noglob wget"
