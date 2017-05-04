@@ -22,7 +22,7 @@ ZSH_HIGHLIGHT_STYLES[single-hyphen-option]='green' # Green to match other comman
 ZSH_HIGHLIGHT_STYLES[double-hyphen-option]='green' # Green to match other command stuff
 ZSH_HIGHLIGHT_STYLES[back-quoted-argment]='fg=red,bold' # signal not to use back quotes
 ZSH_HIGHLIGHT_STYLES[assign]='fg=129' # Purple-ish
-ZSH_HIGHLIGHT_STYLES[redirection]='fg=13,bold' # Bold ping
+ZSH_HIGHLIGHT_STYLES[redirection]='fg=200,bold' # Bold pink
 
 # urls are a problem for zsh - add a couple handy aliases
 alias curl="noglob curl"
