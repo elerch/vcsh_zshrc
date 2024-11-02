@@ -1,5 +1,10 @@
 [ -r ~/.commonrc ] && source ~/.commonrc
 
+command_exists direnv && eval "$(direnv hook zsh)"
+# Mainly I use this for nix develop, and that doesn't really do much for me
+# command_exists any-nix-shell && any-nix-shell zsh --info-right |source /dev/stdin
+command_exists any-nix-shell && any-nix-shell zsh |source /dev/stdin
+
 # ZSH-specific calls here
 bindkey -e # Apparently EDITOR variable of vim will default ZLE to vim mode,
            # which I find annoying at the command line
